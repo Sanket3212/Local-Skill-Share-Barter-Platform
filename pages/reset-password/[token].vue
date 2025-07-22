@@ -1,4 +1,5 @@
 <template>
+    <ThreeAbstractBackground class="absolute inset-0 z-0"></ThreeAbstractBackground>
   <div class="text-white bg-gray-950 min-h-screen flex flex-col antialiased justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
     <main class="w-full max-w-md mx-auto">
       <section class="bg-black/30 rounded-xl border border-white/5 shadow-2xl-custom-glow-alt p-8 sm:p-10 md:p-12">
