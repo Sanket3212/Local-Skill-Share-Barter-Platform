@@ -1,0 +1,47 @@
+/* assets/css/main.css */
+
+/* Base Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global body styles for light mode */
+body {
+  @apply bg-white text-neutral-dark; /* Default light mode background and text */
+}
+
+/* Dark mode overrides for global body styles */
+.dark body {
+  @apply bg-gray-900 text-gray-100; /* Dark mode background and text */
+  /* Using Tailwind's default grays here, but you can define
+     'dark-background' and 'dark-text' in your tailwind.config.js
+     and use those. For instance:
+     @apply bg-dark-background text-dark-text;
+  */
+}
+
+/* Optional: Define specific color transitions for a smoother mode switch */
+body {
+  transition-property: background-color, color;
+  transition-duration: 300ms;
+}
+
+/* This is where you would define other dark mode overrides for elements not directly tied to specific components
+   or for basic HTML tags if you're not using utility classes everywhere.
+*/
+h1, h2, h3, h4, h5, h6 {
+  @apply text-primary; /* Default to primary color in light mode */
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  @apply text-blue-300; /* Example: Lighter blue for dark mode headings */
+}
+
+/* Example for links */
+a {
+  @apply text-primary hover:text-primary-dark;
+}
+
+.dark a {
+  @apply text-blue-400 hover:text-blue-300;
+}
