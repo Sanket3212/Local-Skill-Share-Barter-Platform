@@ -1,4 +1,5 @@
 <template>
+  <ThreeAbstractBackground class="absolute inset-0 z-0"></ThreeAbstractBackground>
   <div class="w-full max-w-md z-10 animate-fade-in-down flex flex-col items-center">
     <div class="flex justify-center mb-6">
       <svg

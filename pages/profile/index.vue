@@ -1,4 +1,5 @@
 <template>
+   <ThreeAbstractBackground class="absolute inset-0 z-0"></ThreeAbstractBackground>
   <div class="container mx-auto py-12 px-4 flex-grow antialiased">
     <div class="max-w-4xl mx-auto bg-black/40 backdrop-blur-xl p-8 md:p-10 rounded-3xl border border-white/10 shadow-2xl-custom-glow-alt text-white relative overflow-hidden">
       <div class="absolute inset-0 z-0 opacity-10">

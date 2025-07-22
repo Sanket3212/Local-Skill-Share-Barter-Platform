@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   ],
 
   modules: [
-    '@nuxtjs/tailwindcss', '@tresjs/nuxt', '@pinia/nuxt', '@nuxtjs/supabase', '@luxdamore/nuxt-canvas-sketch'
+    '@nuxtjs/tailwindcss', '@tresjs/nuxt', '@pinia/nuxt', '@nuxtjs/supabase'
   ],
   supabase: {
     url: process.env.SUPABASE_URL,
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     redirectOptions: {
       login: '/login',
       callback: '/profile',
-      exclude: ['/', '/register', '/forgot-password', '/new-listing'],
+      exclude: ['/', '/register', '/forgot-password'],
     }
   },
 

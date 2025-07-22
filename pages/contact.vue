@@ -1,4 +1,5 @@
 <template>
+   <ThreeAbstractBackground class="absolute inset-0 z-0"></ThreeAbstractBackground>
   <div class="container mx-auto py-12 px-4 flex-grow">
     <div class="max-w-3xl mx-auto bg-black/30 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-lg text-white">
       <h1 class="text-4xl font-black text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-teal-400">
