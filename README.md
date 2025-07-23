@@ -42,3 +42,9 @@ cd skillswap
 npm install
 # OR
 yarn install
+
+Contributing
+We welcome contributions! Please feel free to open issues or submit pull requests.
+
+License
+This project is open-source and available under the MIT License.

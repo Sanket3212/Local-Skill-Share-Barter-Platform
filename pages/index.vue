@@ -133,6 +133,7 @@
 import { onMounted } from 'vue';
 import ThreeAbstractBackground from '~/components/ThreeAbstractBackground.vue'; // Changed to ThreeAbstractBackground
 import ThreeSceneBackground from '~/components/ThreeSceneBackground.vue'; // Kept if used in a separate section
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 
 onMounted(() => {
   if (process.client) {

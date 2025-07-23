@@ -16,6 +16,7 @@
     "@pinia/nuxt": "^0.11.2",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tresjs/nuxt": "^4.0.0",
+    "@vercel/speed-insights": "^1.2.0",
     "aos": "^2.3.4",
     "date-fns": "^4.1.0",
     "firebase": "^9.23.0",

@@ -1,4 +1,5 @@
 <template>
+  <SpeedInsights/>
   <div class="flex flex-col min-h-screen">
     <AppHeader />
 
@@ -11,8 +12,7 @@
 </template>
 
 <script setup>
-import AppHeader from '~/components/AppHeader.vue';
-import AppFooter from '~/components/AppFooter.vue';
+import { SpeedInsights } from "@vercel/speed-insights/nuxt";
 </script>
 
 <style scoped>
