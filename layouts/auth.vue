@@ -1,4 +1,6 @@
 <template>
+    <AppHeader />
+
     
   <div class="min-h-dvh bg-gray-950 text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
     <div

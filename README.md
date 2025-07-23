@@ -1,76 +1,44 @@
-# Nuxt Minimal Starter
+# SkillSwap
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to **SkillSwap**, your community-driven platform for trading skills and items! Forget about rupees; here, your talents and unused items are your currency. Connect with individuals across India to swap expertise, exchange goods, and build stronger, more interdependent local communities.
 
-## Setup
+This project is built with **Nuxt 3 (Vue 3)**, **Tailwind CSS**, **Three.js**, and powered by **Supabase** for a modern, real-time, and engaging user experience.
 
-Make sure to install dependencies:
+---
+
+## Features
+
+* **Cash-Free Exchange:** Engage in a true bartering economy by swapping skills and items directly.
+* **Stronger Local Bonds:** Discover and connect with individuals in your community, fostering mutual growth.
+* **Intuitive & Smooth UI:** A user-friendly platform designed for effortless listing, searching, and swapping, enhanced with smooth animations and interactive 3D elements.
+* **Interactive 3D Globe:** Explore a dynamic, rotatable Earth with glowing connections, visually representing the global nature of skill exchange.
+* **Real-time Messaging:** Communicate seamlessly with other swappers through an integrated chat system.
+* **Secure Authentication:** Powered by Supabase, offering secure user management including password reset functionality.
+* **Responsive Design:** Optimized for a consistent experience across various devices.
+
+---
+
+## Technologies Used
+
+* **Framework:** [Nuxt 3](https://nuxt.com/) (Vue 3)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animations:** [AOS.js](https://michalsnik.github.io/aos/) (Animate On Scroll)
+* **3D Graphics:** [Three.js](https://threejs.org/) (with OrbitControls)
+* **Backend as a Service (BaaS):** [Supabase](https://supabase.com/) (Authentication, Database, Realtime)
+* **Date Handling:** [date-fns](https://date-fns.org/)
+
+---
+
+## Setup and Installation
+
+Follow these steps to get your SkillSwap project up and running locally.
+
+### 1. Clone the Repository
 
 ```bash
-# npm
+git clone <your-repository-url>
+cd skillswap
+
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# OR
 yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# Local-Skill-Share-Barter-Platform
